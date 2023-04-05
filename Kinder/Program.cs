@@ -42,7 +42,6 @@
                     break;
                     case "2":
                     du.Fuettern(nahrung, luedden);
-                    Console.ReadLine();
                     break;
                     case "3":
                     Console.WriteLine(luedden.Hungrig);
@@ -52,6 +51,7 @@
                     foreach (Nahrung item in luedden.Magen.MagenInhalt) {
                         Console.WriteLine(item.Name);
                     }
+                    Console.ReadLine();
                     break;
                     case "q":
                     running = false;
